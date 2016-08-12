@@ -10,6 +10,7 @@ def main():
     controller = Controller(model)
     view = View(model, controller)
 
+    model.run()
     pass
 
 if __name__ == "__main__":

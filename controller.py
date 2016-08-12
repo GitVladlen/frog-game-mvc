@@ -8,6 +8,14 @@ class Controller(object):
         self.model = model
         pass
 
+    def restart(self):
+        self.model.resetGame()
+        pass
+
+    def turn(self, position):
+        self.model.turn(position)
+        pass
+
     def __str__(self):
         return "[controller]"
         pass
